@@ -14,4 +14,4 @@ function switchAccount {
 
 alias upKubeDev='aws --profile dev eks --region us-east-1 update-kubeconfig --name dev-eks-cluster'
 
-alias switchDev='unsetAWS && switchAccount 111111111111 dev && upKubeDev'
+alias switchDev='switchAccount 111111111111 dev && upKubeDev'
